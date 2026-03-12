@@ -79,3 +79,79 @@ p a:hover {
     top: 25px;
     left: 376px
 }
+
+#menuPan {
+    width: 685px;
+    height: 38px;
+    background: #f8dae8;
+    position: relative;
+}
+
+#menuPan ul.menu {
+    position: absolute;
+    top: 12px;
+    left: 33px;
+    width: 640px
+}
+
+#menuPan ul.menu li {
+    height: 16px;
+    margin-right: 28px;
+    float: left
+}
+
+#menuPan ul.menu li a {
+    height: 16px;
+    display: block;
+    text-indent: -20000px;
+}
+
+#menuPan ul.menu li a:hover {
+    height: 16px;
+}
+
+#header {
+    width: 685px;
+    height: 238px;
+    background: url(../images/b_header.jpg) 0 0 no-repeat;
+    position: relative;
+}
+
+#header img#slogan2 {
+    position: absolute;
+    top: 76px;
+    left: 19px
+}
+
+#content {
+    width: 685px;
+    position: relative;
+    background: #FFF
+}
+
+#leftPan {
+    width: 179px;
+    float: left;
+    margin: 26px 39px 0 19px;
+    display: inline
+}
+
+#rightPan {
+    width: 436px;
+    float: left;
+    margin: 17px 0 0 0;
+}
+
+#footer {
+    height: 49px;
+    clear: both;
+    width: 775px;
+    background: #e8f09c;
+    margin: 0 auto
+}
+
+#footer p {
+    padding: 10px 0 0 0;
+    font: 10px/16px Tahoma, sans-serif;
+    text-align: center;
+}
